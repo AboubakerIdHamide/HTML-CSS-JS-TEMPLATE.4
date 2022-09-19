@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gonex</title>
+
+    <!-- normalize all element normaly -->
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,400;1,500;1,600&family=Montserrat:ital,wght@0,200;1,300&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;1,100;1,300;1,500&display=swap"
+        rel="stylesheet">
+
+    <!-- font icons -->
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/all.min.css">
+
+    <!-- my style -->
+    <link rel="stylesheet" href="css/templateFour.css">
+
+    <!-- file:///D:/playlists/HTML_CSS_P3/other/gonex/index.html -->
+
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="images/svg/logo.svg" alt="">
+            </div>
+            <div class="brgrI">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul>
+                <li class="searchC"><a href="#home">HOME</a></li>
+                <li class="searchC"><a href="#services">SERVICES</a></li>
+                <li class="searchC"><a href="#work">WORK</a></li>
+                <li class="searchC"><a href="#about">ABOUT US</a></li>
+                <li class="searchC"><a href="#skills">SKILLS</a></li>
+                <li class="searchC"><a href="#contact">CONTACT</a></li>
+                <li class="searchC">
+                    <form action="#" id="hForm">
+                        <i class="fas fa-search search-icon"></i>
+                        <input type="text" placeholder="Search">
+                    </form>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Home (Landing Section) -->
+    <div class="home" id="home">
+        <div class="container">
+            <div class="home-info">
+                <h1>WE ARE GONEX</h1>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia quaerat sint sed animi facere
+                    dolorum.
+                </p>
+                <a href="#">Show Me MOre</a>
+            </div>
+            <i class="fa fa-angle-left"></i>
+            <i class="fa fa-angle-right"></i>
+        </div>
+    </div>
+
+    <!-- Project Section -->
+    <div class="projects" id="services">
+        <div class="container">
+            <div class="box">
+                <h2>What we do</h2>
+                <h1>BEST</h1>
+                <span>see it for yourself</span>
+            </div>
+
+            <div class="box">
+                <h3>PHOTOGRAPHY</h3>
+                <p>If you think you can, you can. and If you think you can't you're right. </p>
+                <a href="#">SEE PROJRCTS</a>
+            </div>
+
+            <div class="box">
+                <h3>GRAPHIC DESIGN</h3>
+                <p>If you think you can, you can. and If you think you can't you're right. </p>
+                <a href="#">SEE PROJRCTS</a>
+            </div>
+
+            <div class="box">
+                <h3>APP DEVELOPMENT</h3>
+                <p>If you think you can, you can. and If you think you can't you're right. </p>
+                <a href="#">SEE PROJRCTS</a>
+            </div>
+
+            <div class="box">
+                <h3>PROGRAMMING</h3>
+                <p>If you think you can, you can. and If you think you can't you're right. </p>
+                <a href="#">SEE PROJRCTS</a>
+            </div>
+
+            <div class="box">
+                <h3>WEB CODING</h3>
+                <p>If you think you can, you can. and If you think you can't you're right. </p>
+                <a href="#">SEE PROJRCTS</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Video Section -->
+    <div class="video">
+        <div class="container">
+            <div id="video-real">
+                <div class="intro">
+                    <img src="images/svg/logo.svg" alt="">
+                    <h1>SHOW ME THE VIDEO</h1>
+                    <p>Just hit play and relax ...</p>
+                </div>
+            </div>
+            <div class="ctrl-label">
+                <div class="volume">
+                    <i class="fas fa-volume-up"></i>
+                    <form action="#">
+                        <input type="range" name="volume" id="volume" min="0" max="100">
+                    </form>
+                    <div class="time">
+                        0:00/0:00
+                    </div>
+                </div>
+                <div class="play-ctrl">
+                    <i class="fa-solid fa-backward" id="addSp"></i>
+                    <i class="fas fa-play" id="playBtn"></i>
+                    <i class="fa-solid fa-forward" id="minSp"></i>
+                </div>
+                <div class="share-label">
+                    <i class="fas fa-share"></i>
+                    <div class="social">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-google"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Works -->
+    <div class="work" id="work">
+        <div class="container">
+            <h1>Works</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet nam quasi consequatur, enim est similique
+                quis, animi sequi adipisci culpa illum cumque minus veniam a repellendus, rerum corrupti ipsum ad.</p>
+            <ul>
+                <li class="all">ALL</li>
+                <li class="photography">PHOTOGRAPHY</li>
+                <li class="graphic-design">GRAPHIC DESIGN</li>
+                <li class="app">APP</li>
+                <li class="programming active-li">PROGRAMMING</li>
+                <li class="web">WEB</li>
+            </ul>
+        </div>
+        <div class="gallery">
+            <div class="img-c">
+                <img src="images/works/works_01.jpg" alt="">
+                <div class="infos">
+                    <h2>AWESOME IMAGES</h2>
+                    <div class="small-desc">
+                        <i class="far fa-heart"></i> 76 LIKES
+                    </div>
+                </div>
+            </div>
+
+            <div class="img-c">
+                <img src="images/works/works_02.jpg" alt="">
+                <div class="infos">
+                    <h2>AWESOME IMAGES</h2>
+                    <div class="small-desc">
+                        <i class="far fa-heart"></i> 76 LIKES
+                    </div>
+                </div>
+            </div>
+
+            <div class="img-c">
+                <img src="images/works/works_03.jpg" alt="">
+                <div class="infos">
+                    <h2>AWESOME IMAGES</h2>
+                    <div class="small-desc">
+                        <i class="far fa-heart"></i> 76 LIKES
+                    </div>
+                </div>
+            </div>
+
+            <div class="img-c">
+                <img src="images/works/works_04.jpg" alt="">
+                <div class="infos">
+                    <h2>AWESOME IMAGES</h2>
+                    <div class="small-desc">
+                        <i class="far fa-heart"></i> 76 LIKES
+                    </div>
+                </div>
+            </div>
+
+            <div class="img-c">
+                <img src="images/works/works_05.jpg" alt="">
+                <div class="infos">
+                    <h2>AWESOME IMAGES</h2>
+                    <div class="small-desc">
+                        <i class="far fa-heart"></i> 76 LIKES
+                    </div>
+                </div>
+            </div>
+
+            <div class="img-c">
+                <img src="images/works/works_06.jpg" alt="">
+                <div class="infos">
+                    <h2>AWESOME IMAGES</h2>
+                    <div class="small-desc">
+                        <i class="far fa-heart"></i> 76 LIKES
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- About -->
+    <div class="about" id="about">
+        <div class="container">
+            <h1>ABout AS</h1>
+            <p>SOME SIMPLE WORD ABOUT OUR COMPANY</p>
+            <div>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque fugiat, perspiciatis esse voluptatem quia adipisci consectetur numquam praesentium qui. Corrupti repudiandae blanditiis maxime! Corporis nisi, laborum odio optio ratione voluptate.
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Statistics -->
+    <div class="skills" id="skills">
+        <div class="container">
+            <h1>GONEX STATISTIC</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde placeat cumque nulla necessitatibus voluptatibus exercitationem modi animi assumend.</p>
+            <div class="skills-c">
+                <div class="prog-box">
+                    <h3>PHOTOGRAPHY</h3>
+                    <div class="prog"><span style="width:93%;" data-progress="93%"></span></div>
+                </div>
+
+                <div class="prog-box">
+                    <h3>GRAPHIC DESIGN</h3>
+                    <div class="prog"><span style="width:95%;" data-progress="95%"></span></div>
+                </div>
+
+                <div class="prog-box">
+                    <h3>APP</h3>
+                    <div class="prog"><span style="width:75%;" data-progress="75%"></span></div>
+                </div>
+
+                <div class="prog-box">
+                    <h3>PROGRAMMING</h3>
+                    <div class="prog"><span style="width:53%;" data-progress="53%"></span></div>
+                </div>
+
+                <div class="prog-box">
+                    <h3>WEB</h3>
+                    <div class="prog"><span style="width:84%;" data-progress="84%"></span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="contact" id="contact">
+        <div class="container">
+            <div class="form">
+                <form action="#">
+                    <input type="email" placeholder="Email Address">
+                    <button type="submit" class="sbmt">SUBSCRIBE</button>
+                </form>
+            </div>
+            <div class="contact-boxs">
+                <a href="tel:0659854779" class="box">
+                    <img src="images/contact/phone.png" alt="Phone">
+                    <span>+212659854779</span>
+                </a>
+
+                <a href="mailto:gonex@mail.com" class="box">
+                    <img src="images/contact/mail.png" alt="Phone">
+                    <span>gonex@mail.com</span>
+                </a>
+
+                <a href="tel:0659854779" class="box">
+                    <img src="images/contact/map.png" alt="Phone">
+                    <span>787 GONEX AVENUE, NEW YORK</span>
+                </a>
+            </div>
+
+            <div class="social-icons">
+                <a href="#" class="facebook">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+
+                <a href="#" class="twitter">
+                    <i class="fab fa-twitter"></i>
+                </a>
+
+                <a href="#" class="dribbble">
+                    <i class="fab fa-dribbble"></i>
+                </a>
+
+                <a href="#" class="google">
+                    <i class="fab fa-google-plus"></i>
+                </a>
+
+                <a href="#" class="youtube">
+                    <i class="fab fa-youtube"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2022 - Gonex All Rights Reserved</p>
+    </div>
+
+    <!--  JavaScript -->
+    <script src="js/myScript.js"></script>
+</body>
+
+</html>
