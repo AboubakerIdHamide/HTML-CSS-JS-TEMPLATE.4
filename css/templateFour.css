@@ -178,7 +178,8 @@ header .container .search-icon{
     transition: var(--main-transition);
 }
 header .container .search-icon:hover,
-header .container ul li a:hover{
+header .container ul li a:hover,
+header .container ul li a.link-observed{
     color: var(--secondary-color);
 }
 header .container .search-icon + input{
